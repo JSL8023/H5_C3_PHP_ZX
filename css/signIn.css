@@ -1,0 +1,44 @@
+html,body{height: 100%;width: 100%;}
+header{position: absolute;top: 0;left: 0;width: 100%;height: 2.7rem;line-height: 2.7rem;color: #fff;font-size: 1.3rem;text-align: center;background: #a90506;}
+
+footer{background: #f3eff0;width: 100%; position: absolute;top: 2.7rem;bottom: 0;box-sizing: border-box;overflow: auto;padding: 0.78rem 0.9rem;}
+.divBox{background: #fff; width: 100%;border-radius: 5px;height: 2.75rem;line-height: 2.75rem;font-size: 0.85rem;margin-top: 0.2rem;text-align: center;overflow: hidden;}
+.divBox input{border: none; width: 80%;height: 2.75rem;line-height: 2.75rem;font-size: 0.85rem;}
+
+/*点击的黑框*/
+.kuang{margin: 0 0.4rem 0 0.8rem; width: 1.3rem;height: 1.3rem;font-size: 1.3rem;border: 1px solid #000;display: inline-block;vertical-align: middle;}
+.kuang_2{display: none; width: 100%;height: 100%;background: url(../img/right.jpg);background-size:100% 100%;}
+/*.kuang{background: url(../img/right.jpg);background-size:100% 100%;}*/
+
+.passHide{ display: none !important;}
+.passShow{display: inline-block;}
+
+.cookieBlock{display: block;}
+
+
+
+.red{margin-left: 1.1rem;color: #fc477a;}
+.mima{text-align: left; margin: 1rem 0;color: #5b5b5b;font-weight: bold;}
+
+
+.redW{background: -webkit-linear-gradient(#d70909,#aa0404);color: #FFFFFF;font-size: 1.3rem;letter-spacing: .4rem;margin-top: 2rem;}
+.blackW{background: -webkit-linear-gradient(#5c5c5c,#242424);color: #FFFFFF;font-size: 1.3rem;letter-spacing: .4rem;margin-top: 0.6rem;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

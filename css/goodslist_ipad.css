@@ -1,0 +1,155 @@
+html,
+body {
+	height: 100%;
+	width: 100%;
+}
+
+@font-face {
+	font-family: 'iconfont';
+	src: url('//at.alicdn.com/t/font_1466775135_0696802.eot');
+	/* IE9*/
+	src: url('//at.alicdn.com/t/font_1466775135_0696802.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('//at.alicdn.com/t/font_1466775135_0696802.woff') format('woff'), /* chrome、firefox */
+	url('//at.alicdn.com/t/font_1466775135_0696802.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+	url('//at.alicdn.com/t/font_1466775135_0696802.svg#iconfont') format('svg');
+	/* iOS 4.1- */
+}
+
+.saleCar_top {
+	font-family: "iconfont" !important;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	/*反锯齿  让页面的字 更清晰*/
+	-webkit-text-stroke-width: 0.2px;
+	-moz-osx-font-smoothing: grayscale;
+	color: #fff;
+	background: linear-gradient(#cf0f0e, #940807);
+	width: 2.8rem;
+	height: 1.3rem;
+	border-radius: 15px;
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	font-size: 0.6rem;
+	line-height: 1.3rem;
+	top: 0.35rem;
+	right: 0.68rem;
+}
+
+header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 2rem;
+	line-height: 2rem;
+	color: #fff;
+	font-size: 1.3rem;
+	text-align: center;
+	background: #a90506;
+}
+
+footer {
+	position: absolute;
+	bottom: 0rem;
+	height: 2rem;
+	width: 100%;
+	background: #484850;
+	overflow: hidden;
+}
+
+footer a {
+	display: block;
+	float: left;
+	width: 10%;
+	border: none;
+	/*border-top: 0.368rem solid transparent;*/
+	/*height: 2.632rem;*/
+	height: 2rem;
+	text-align: center;
+	color: #fff;
+	box-sizing: border-box;
+}
+
+footer a:nth-last-of-type(1){display: none;}
+
+
+.ahover {
+	background: radial-gradient(#e81c1d,#a21211 );
+}
+
+footer a .name {
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+footer a .logo {
+	font-family: "iconfont" !important;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	/*反锯齿  让页面的字 更清晰*/
+	-webkit-text-stroke-width: 0.2px;
+	-moz-osx-font-smoothing: grayscale;
+	/*字体结束*/
+	
+	font-size: 1rem;
+	padding: 0.2rem 0;
+	display: inline-block;
+}
+
+.header{overflow-y: auto;  overflow-x: hidden; position: absolute; top: 2rem;bottom: 2rem; background: #9a9fa5;width: 3.5rem;}
+.header .header_main{ transition: 1s;width: 3.5rem; background: #9a9fa5;}
+.header a{position: relative; text-align: center; display: block;margin-left: 0.1rem;line-height: 2rem;height: 2rem;color: #000;width: 1rem;padding: 0 0.15rem;}
+.shanJiao{display: none; transform: rotate(45deg); width: 0.4rem;height: 0.4rem;background: #fffffd;position: absolute;top: 0.8rem;right: -2.26rem;}
+
+.show{display: block !important;}
+.show_color{ color: #fff;}
+
+
+.header a .top_logo{
+		font-family: "iconfont" !important;
+		font-style: normal;
+		-webkit-font-smoothing: antialiased;
+		/*反锯齿  让页面的字 更清晰*/
+		-webkit-text-stroke-width: 0.2px;
+		-moz-osx-font-smoothing: grayscale;
+		/*字体结束*/
+		font-size: 0.8rem ;
+		
+}
+.ipad_text{display: block;font-size: 0.5rem;position: absolute;top: 0.55rem;left: 1.26rem;width: 1.56rem;height: 1rem;line-height: 1rem; overflow: hidden;}
+
+
+.center{position: absolute;top: 2rem;bottom: 2rem;width: 16.5rem;left: 3.5rem; background: #f3f4f6;overflow-y: auto;}
+.goods{display: none; width: 100%;height: 100%;overflow-y: auto;overflow-x: hidden;}
+
+
+.goods:nth-of-type(1){}
+.goods:nth-of-type(2){background: #005AA0;}
+.goods:nth-of-type(3){background: #008000;}
+.goods:nth-of-type(4){background: #00FF00;}
+.goods:nth-of-type(5){background: #940807;}
+.goods:nth-of-type(6){background: #FC477A;}
+.goods:nth-of-type(7){background: #5B5B5B;}
+.goods:nth-of-type(8){background: tan;}
+.goods:nth-of-type(9){background: yellowgreen;}
+.goods:nth-of-type(10){background: cyan;}
+
+.goods dl{/*border: 1px solid #ccc;*/margin: 0.54rem  0.44rem 0.64rem 0.44rem; width: 4.6rem;height: 6.17rem;float: left;display: block;}
+.goods dl dt{width: 4.6rem;height: 4.6rem;box-shadow: 0px 5px 5px #ccc;box-sizing: border-box;padding: 0.2rem;}
+.goods dl dt img{display: block;width: 4.2rem;height: 4.2rem;}
+.goods dl dd:nth-of-type(1){width: 4.6rem;white-space: nowrap;overflow: hidden; text-overflow: ellipsis; text-align: center;line-height: 1.21rem;height: 1.21rem;font-size: 0.39rem;color: #000;}
+.goods dl dd:nth-of-type(2){height: 0.59rem;width: 100%;overflow: hidden;}
+.goods dl dd:nth-of-type(2) span{line-height: 0.59rem;}
+.goods dl dd:nth-of-type(2) span:nth-of-type(1){float: left;color: #d41212;font-size: 0.39rem;}
+.mony_1{font-weight: bold;}
+.goods dl dd:nth-of-type(2) span:nth-of-type(2){float: right;color: #878787;text-decoration: line-through;font-size: 0.29rem;margin-right: 2px;}
+
+
+
+
+
+
+
+
+
